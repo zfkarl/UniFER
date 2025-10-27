@@ -21,7 +21,7 @@ despite the success of cutting-edge MLLMs in various tasks, their performance on
     <img src="figs/ferbench.png" width="90%"> <br>
 </p>
 
-To this end, we introduce post-training strategies aimed at enhancing the facial expression reasoning capabilities of MLLMs. Specifically, we curate two high-quality and large-scale datasets: UniFER-CoT-230K for cold-start initialization and UniFER-RLVR-360K for reinforcement learning with verifiable rewards (RLVR), respectively. Building upon them, we develop a unified and interpretable FER foundation model termed UNIFER-7B, which outperforms many open-sourced and closed-source generalist MLLMs (e.g., Gemini-2.5-Pro and Qwen2.5-VL-72B).
+To this end, we introduce post-training strategies aimed at enhancing the facial expression reasoning capabilities of MLLMs. Specifically, we curate two high-quality and large-scale datasets: UniFER-CoT-230K for cold-start initialization and UniFER-RLVR-360K for reinforcement learning with verifiable rewards (RLVR), respectively. Building upon them, we develop a unified and interpretable FER foundation model termed UniFER-7B, which outperforms many open-sourced and closed-source generalist MLLMs (e.g., Gemini-2.5-Pro and Qwen2.5-VL-72B).
 
 <p align="center">
     <img src="figs/unifer_framework.png" width="90%"> <br>
@@ -43,14 +43,14 @@ eval_sfew_2.0/data/sfew_2.0_qa.json
 
 ### UniFER-CoT-230K
 
-The proposed SFT dataset UniFER-CoT-230K are stored in:
+Download our [dataset](https://huggingface.co/datasets/Karl28/UniFER), and put the json file `UniFER_CoT_230K.json` in:
 ```bash
 data/UniFER_CoT_230K.json
 ```
 
 ### UniFER-RLVR-360K
 
-The proposed RLVR dataset UniFER-RLVR-360K are stored in:
+Download our [dataset](https://huggingface.co/datasets/Karl28/UniFER), and put the json file `UniFER_RLVR_360K.json` in:
 ```bash
 data/UniFER_RLVR_360K.json
 ```
