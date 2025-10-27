@@ -12,6 +12,8 @@
 
 🌟 Official repository for the paper "Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models"
 
+[📖 Paper] [[🤗 Dataset](https://huggingface.co/datasets/Karl28/UniFER)] [[🤗 Model](https://huggingface.co/Karl28/UniFER-7B)]
+
 ## 👀 About UniFER
 
 Multimodal Large Language Models (MLLMs) have revolutionized numerous research fields, including computer vision and affective computing. As a pivotal challenge in this interdisciplinary domain, facial expression recognition (FER) has evolved from separate, domain-specific models to more unified approaches. One promising avenue to unify FER tasks is converting conventional FER datasets into visual question-answering (VQA) formats, enabling the direct application of powerful generalist MLLMs for inference. However,
@@ -91,7 +93,7 @@ bash run_grpo_vllm.sh
 
 ## 💫 Evaluation
 
-After the above two-stage post-training, we can subsequently employ the derived model UniFER-7B for inference and evaluate its performance. You may change the directory name `Qwen2.5-VL-7B-FER-GRPO-VLLM-8GPU` to `UniFER-7B` for inference.
+After the above two-stage post-training, we can subsequently employ the derived model UniFER-7B for inference and evaluate its performance. You may change the directory name `Qwen2.5-VL-7B-FER-GRPO-VLLM-8GPU` to `UniFER-7B` for inference. Also, you can directly download our provided [checkpoints](https://huggingface.co/Karl28/UniFER-7B) for inference.
 
 ### Inference and Evaluation
 
