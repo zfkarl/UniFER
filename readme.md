@@ -31,6 +31,24 @@ To this end, we introduce post-training strategies aimed at enhancing the facial
 
 Our curated datasets include four widely-used FER datasets: RAFDB, FERPlus, AffectNet, and SFEW2.0. Please download the images of these datasets from their websites first.
 
+### Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/zfkarl/UniFER.git
+cd UniFER
+```
+
+Create a conda environment:
+
+```
+conda create -n r1-v python=3.11
+conda activate r1-v
+```
+
+Please follow the official instructions [here](https://github.com/StarsfieldAI/R1-V) to install both PyTorch and additional dependencies.
+
 ### FERBench
 
 The proposed four subsets of FERBench are stored in the following json files:
@@ -56,25 +74,6 @@ data/UniFER_RLVR_360K.json
 ```
 
 ## 🚀 Training
-
-### Installation
-
-Clone the repository:
-
-```
-git clone https://github.com/zfkarl/UniFER.git
-cd UniFER
-```
-
-Create a conda environment:
-
-```
-conda create -n r1-v python=3.11
-conda activate r1-v
-```
-
-Please follow the official instructions [here](https://github.com/StarsfieldAI/R1-V) to install both PyTorch and additional dependencies.
-
 
 ### Stage 1: Cold Start SFT
 
