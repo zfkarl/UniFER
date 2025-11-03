@@ -131,6 +131,9 @@ cd eval_total/code
 python eval_unifer.py
 ```
 
+## 🥳 Acknowledgements
+
+We would like to thank [R1-V](https://github.com/Deep-Agent/R1-V) and [video-r1](https://github.com/tulerfeng/Video-R1), which served as the foundations for our repository.
 
 <!--
 ## :white_check_mark: Citation
