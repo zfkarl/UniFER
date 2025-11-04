@@ -12,7 +12,7 @@
 
 🌟 Official repository for the paper "Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models"
 
-[📖 Paper] [[🤗 Dataset](https://huggingface.co/datasets/Karl28/UniFER)] [[🤗 Model](https://huggingface.co/Karl28/UniFER-7B)]
+[[📖 Paper](https://arxiv.org/pdf/2511.00389)] [[🤗 Dataset](https://huggingface.co/datasets/Karl28/UniFER)] [[🤗 Model](https://huggingface.co/Karl28/UniFER-7B)]
 
 ## 👀 About UniFER
 
@@ -135,19 +135,21 @@ python eval_unifer.py
 
 We would like to thank [R1-V](https://github.com/Deep-Agent/R1-V) and [video-r1](https://github.com/tulerfeng/Video-R1), which served as the foundations for our repository.
 
-<!--
 ## :white_check_mark: Citation
 
 If you find **UniFER** useful for your research and applications, please kindly cite using this BibTeX:
 
 ```latex
-@article{zhang2024mathverse,
-  title={MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?},
-  author={Zhang, Renrui and Jiang, Dongzhi and Zhang, Yichi and Lin, Haokun and Guo, Ziyu and Qiu, Pengshuo and Zhou, Aojun and Lu, Pan and Chang, Kai-Wei and Gao, Peng and others},
-  journal={arXiv preprint arXiv:2403.14624},
-  year={2024}
+@misc{zhang2025rethinkingfacialexpressionrecognition,
+      title={Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models: Benchmark, Datasets, and Beyond}, 
+      author={Fan Zhang and Haoxuan Li and Shengju Qian and Xin Wang and Zheng Lian and Hao Wu and Zhihong Zhu and Yuan Gao and Qiankun Li and Yefeng Zheng and Zhouchen Lin and Pheng-Ann Heng},
+      year={2025},
+      eprint={2511.00389},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.00389}, 
 }
 ```
--->
 
 🔥 Please contact `fzhang@link.cuhk.edu.hk` if you would like to contribute to the leaderboard or have any problems.
+
