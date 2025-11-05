@@ -31,7 +31,7 @@ To this end, we introduce post-training strategies aimed at enhancing the facial
 
 ## 🔥 Datasets
 
-Our curated datasets include four widely-used FER datasets: RAFDB, FERPlus, AffectNet, and SFEW2.0. Please download the images of these datasets from their websites first.
+Our curated datasets consist of four widely used FER datasets: RAF-DB, FERPlus, AffectNet, and SFEW 2.0. Please download the corresponding images from their official websites before use.
 
 ### Installation
 
@@ -152,4 +152,5 @@ If you find **UniFER** useful for your research and applications, please kindly 
 ```
 
 🔥 Please contact `fzhang@link.cuhk.edu.hk` if you would like to contribute to the leaderboard or have any problems.
+
 
